@@ -1,5 +1,5 @@
 # 1. 프로젝트 소개
-미세먼지 공공 API를 이용해 미세먼지 등급과 다음날 미세먼지 예보를 보여주는 애플리케이션 개발 프로젝트  
+미세먼지 공공 API를 이용해 미세먼지 등급과 다음날 미세먼지 예보를 보여주는 애플리케이션 개발 프로젝트   
 
 ## 1.1 프로젝트 요구사항 분석 스프레드시트 
 [https://docs.google.com/spreadsheets/d/1tAolHvdSZUqzN1v54wQQhXsosJQsSVjXHvc1UjUMKPA/edit#gid=0](https://docs.google.com/spreadsheets/d/1tAolHvdSZUqzN1v54wQQhXsosJQsSVjXHvc1UjUMKPA/edit#gid=0)
