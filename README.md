@@ -26,6 +26,14 @@
 - 문제 : AWS EC2를 통해 배포를 완료한 후 클라이언트 요청을 받았는데 `java.net.ConnectException: Connection timed out` 에러가 발생해서 공공API에 요청하지 못하는 상황 
 - 해결책 : 공공API를 요청할 때 연결되는 시간이 지연되기 때문에 `urlConnection.setConnectTimeout(1000);` 코드를 추가해 연결 시간을 늘렸다.
 
+## 프로젝트 피드백
+- [ ] Rest API 문서를 만들지 못해 아쉽다.
+    - 왜 : 문서 만드는 방법을 공부하지 못했다. 단순히 READMD에 정리해서 배포했다.
+    - 피드백 : Rest API 문서 만드는 법을 공부해야겠다. 
+- [ ] Spring JDBC를 사용하지 못했다. 
+    - 왜 : 기술에 익숙하지 않으니 적용하지 못했다. 
+    - 피드백 : OneToMany, ManyToMany 익혀서 사용해보기. 
+
 # Rest API 문서
 ## Heroku 배포 URL (heroku9 -> heroku99 변경) 
 - 사용자 근처 측정소 데이터 : GET http://dust99.herokuapp.com/location?latitude=37.4624272&longitude=126.97828419999999
